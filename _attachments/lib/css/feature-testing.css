@@ -1,0 +1,86 @@
+html {
+   background-image: url("../rsc/bg-lightblue.png");
+}
+a:link, a:visited {
+   text-decoration: none; color: black;
+}
+a:hover {
+   border-bottom: 2px solid black;
+}
+a#counter:hover {
+   border: 0;
+   text-decoration: underline;
+}
+body {
+   padding: 0px;
+   text-align: center;
+   font-family: 'Nunito', sans-serif;
+}
+#url {
+   font-size: 2em;
+}
+#page-header {
+   margin-top: 0%;
+   font-size: 1.50em;
+   white-space: pre-wrap;
+}
+#question-inner {
+   font-size: 0.75em;
+}
+#comments {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   height: 50px;
+   margin-left: 2px;
+   margin-right: 2px;
+   width: 22em;
+}
+button {
+   background: #262C32;
+   width: 10em;
+   padding: 4px;
+   letter-spacing: 1px;
+   border: none;
+   color: #EFDDA8;
+   border-radius: 3px;
+}
+#content {
+   margin: 0px auto;
+   text-align: center;
+   padding: 15px;
+   border: 1px dashed #333;
+   background-image: url("../rsc/bg-light.png");
+   border-color: rgb(94,128,153);
+   border-radius: 3px;
+}
+#contact {
+   margin-top: 1em;
+   padding: 3px;
+   font-size: 1em;
+   text-align: left;
+   float: left;
+}
+.ui-dialog {
+   background-image: url("../rsc/bg-lightblue.png");
+   border: 1px dashed #333;
+   border-color: rgb(94,128,153);
+   border-radius: 3px;
+   position: absolute;
+   overflow: hidden;
+   font-size: 1.00em;
+}
+.ui-dialog-titlebar {
+   height: 0px;
+}
+.ui-dialog-titlebar-close{
+   display: none;
+}
+.ui-dialog .ui-dialog-content {
+   position: relative;
+   border: 0;
+   background: none;
+   overflow: auto;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+   margin: .5em .4em .5em 0;
+}
